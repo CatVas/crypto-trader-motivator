@@ -1,0 +1,16 @@
+.currency {
+  &__pair {
+    margin: 0 0 1em;
+  }
+
+  &__price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  &__status {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+}
