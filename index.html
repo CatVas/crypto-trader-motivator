@@ -7,16 +7,32 @@
     <title>Crypto Trader's Motivator</title>
   </head>
   <body class="main">
-    <header>
+    <header class="header">
       <h1>Crypto Trader's Motivator</h1>
     </header>
-    <main>Main</main>
+    <main>
+      <article class="content-generator">
+        <h2>Post Generator</h2>
+        <button id="generate" type="button">Generate</button>
+        <textarea
+          id="post"
+          rows="6"
+          placeholder="Your generated post will appear here..."
+        ></textarea>
+        <button type="button">Save</button>
+        <p id="status"></p>
+      </article>
+    </main>
     <footer class="footer">
       <p>All-in-one place to learn coding.</p>
+      <p>
+        &copy; 2025. All rights reserved & are protected by a grandma with a
+        gun.
+      </p>
     </footer>
     <article class="currency widget">
       <h2 class="currency__status disconnected">Disconnected</h2>
-      <p>
+      <p class="currency__pair">
         BTC/USDT: <span class="currency__price">-</span
         ><span class="disconnected" id="trend">-</span>
       </p>

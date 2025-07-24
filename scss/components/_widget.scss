@@ -2,8 +2,16 @@
   background: $color-brand-light;
   border-radius: 8px;
   color: $color-text;
-  left: 10px;
+  left: 50%;
+  margin-left: -80px;
   padding: 10px 15px;
   position: absolute;
+  text-align: center;
   top: 10px;
+  width: 160px;
+
+  @media screen and (min-width: $bp-tablet) {
+    left: 10px;
+    margin-left: 0;
+  }
 }

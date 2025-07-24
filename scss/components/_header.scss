@@ -1,0 +1,7 @@
+.header {
+  padding: 10em 1em 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding-top: 1em;
+  }
+}
