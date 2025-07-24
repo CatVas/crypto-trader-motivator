@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-image: linear-gradient($color-dark, $color-brand-dark 155%);
+  color: $color-text;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+button,
+input,
+textarea {
+  background-color: $color-gray;
+  border: 1px solid $color-gray-light;
+  border-radius: 4px;
+  color: $color-text;
+  padding: 0.75em;
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-gray-light2;
+  }
+}
+
+form,
+.content-generator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  width: 300px;
+}
