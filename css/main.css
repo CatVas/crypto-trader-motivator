@@ -48,6 +48,10 @@ h2 {
   color: lightgreen;
 }
 
+.connecting {
+  color: yellow;
+}
+
 .disconnected {
   color: red;
 }

@@ -19,7 +19,7 @@
           rows="6"
           placeholder="Your generated post will appear here..."
         ></textarea>
-        <button type="button">Save</button>
+        <button id="save" type="button">Save it for me!</button>
         <p id="status"></p>
       </article>
     </main>
@@ -31,12 +31,16 @@
       </p>
     </footer>
     <article class="currency widget">
-      <h2 class="currency__status disconnected">Disconnected</h2>
+      <h2 class="currency__status disconnected" id="currency-status">
+        Disconnected
+      </h2>
       <p class="currency__pair">
-        BTC/USDT: <span class="currency__price">-</span
+        BTC/USDT: <span class="currency__price" id="currency-price">-</span
         ><span class="disconnected" id="trend">-</span>
       </p>
       <button class="currency_btn" type="button">Reconnect</button>
     </article>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
