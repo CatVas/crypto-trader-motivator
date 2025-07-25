@@ -2,6 +2,10 @@
   color: $color-status-ok;
 }
 
+.connecting {
+  color: $color-status-pending;
+}
+
 .disconnected {
   color: $color-status-no;
 }
